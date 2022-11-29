@@ -1,0 +1,86 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px 100px;
+}
+
+.nav-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.nav-link a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.nav-link a:hover {
+  text-decoration: underline;
+}
+
+.containerMessage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 100px;
+  background-image: url(img/saad-chaudhry-cYpqYxGeqts-unsplash.jpg);
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+
+.message p img {
+  height: 15px;
+}
+
+.message {
+  background: rgba(212, 193, 193, 0.9);
+  padding: 20px 20px;
+  color: #fff;
+}
+
+.message p {
+  font-size: large;
+  font-weight: 100;
+  margin-top: 40px;
+  color: black;
+}
+
+span {
+  color: blue;
+}
+
+.containerProduct1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 100px;
+  height: 500px;
+  margin-top: 130px;
+}
+
+.imgProduct1 img {
+  height: 300px;
+}
+
+button {
+  padding: 20px 40px;
+  background-color: transparent;
+  border-radius: 10px;
+}
