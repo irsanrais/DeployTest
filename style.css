@@ -89,7 +89,7 @@ span {
   position: absolute;
 }
 
-button.button1 {
+.button.button1 {
   padding: 20px;
   background-color: transparent;
   border-radius: 4px;
@@ -147,7 +147,7 @@ button.button1 {
   color: white;
 }
 
-button.button2 {
+.button.button2 {
   background-color: transparent;
   border-radius: 10px;
   border-width: 1px;
