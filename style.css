@@ -163,3 +163,28 @@ button.button2 {
 }
 
 /* akhir konten produk 2 */
+
+/* awal konten produk 3 */
+
+.containerProduct3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 24px 100px;
+  height: 450px;
+  margin-top: 130px;
+  margin-bottom: 10px;
+}
+
+.imgProduct3 img {
+  height: 400px;
+  width: 400px;
+  position: absolute;
+}
+
+.textProduct3 {
+  width: 600px;
+  margin-left: 65%;
+  margin-top: 8%;
+  font-size: 20px;
+}
